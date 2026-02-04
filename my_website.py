@@ -35,16 +35,31 @@ col3.metric("💼 Status", "Open for Work")
 tab1, tab2, tab3 = st.tabs(["🎓 Education", "🛠️ Skills", "📂 Projects"])
 
 with tab1:
-    st.subheader("Academic Background")
+    st.subheader("Academic Background & Certifications")
+
+    col1, col2 = st.columns(2)
     
-    with st.container(border=True):
+    with col1:
+        st.subheader("🏛️ University Degrees")
         st.write("📚 **B.Sc (Computer Science)**")
         st.caption("Yadanabon University, Mandalay")
-        st.write("Focus: Programming, Database Management")
+        st.write("---")
 
-    with st.container(border=True):
+        st.write("IT Diploma")
+        st.caption("Yangon University")
+        st.write("Programming")
+
+    with col2:
+        st.subheader("📜 Professional Certifications")
         st.write("🇯🇵 NAT-TEST N3 Certified (N2 Level Proficiency)")
         st.caption("Advanced Business Level Proficiency")
+
+        st.write("---")
+
+        st.write("🌐 **Network Certifications**")
+        st.write("✅ **Cisco CCNA** (Certified Network Associate)") 
+        st.write("✅ **CompTIA Network+**") 
+        st.caption("Routing, Switching, Network Security")
 
 with tab2:
     st.subheader("Technical Stack")
