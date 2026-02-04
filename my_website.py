@@ -14,10 +14,10 @@ st.sidebar.info("📍Irumashi, Saitama ken, Japan")
 st.sidebar.text("📧 mht.minhtike@gmail.com") 
 st.sidebar.text("📱 070-8940-4565")
 
-st.title("👨‍💻 Data Analyst Portfolio")
-st.subheader("Min Min Htike")
+st.title("Min Min Htike 👨‍💻")
+st.subheader("🚀 Aspiring Data Analyst | Portfolio")
 st.write("""
-Hello! I am Min Min Htike.** I am currently based in Saitama, Japan, and I am on a focused journey to become a professional Data Analyst.  
+Hello! I am Min Min Htike. I am currently based in Saitama, Japan, and I am on a focused journey to become a professional Data Analyst.  
 My goal is simple: To turn raw data into meaningful actions. Currently, I am actively building my technical skills in Python, Data Visualization, and Problem Solving.
 This portfolio documents my progress as I turn my career ambitions into reality—one project at a time.
 """)
