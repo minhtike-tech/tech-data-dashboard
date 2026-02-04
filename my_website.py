@@ -10,15 +10,16 @@ st.set_page_config(
 
 st.sidebar.image("https://cdn-icons-png.flaticon.com/512/3135/3135715.png", width=100)
 st.sidebar.header("Contact Info")
-st.sidebar.info("📍 Irumashi, Saitama ken, Japan")
+st.sidebar.info("📍Irumashi, Saitama ken, Japan")
 st.sidebar.text("📧 mht.minhtike@gmail.com") 
 st.sidebar.text("📱 070-8940-4565")
 
 st.title("👨‍💻 Data Analyst Portfolio")
 st.subheader("Min Min Htike")
 st.write("""
-မင်္ဂလာပါ! ကျွန်တော်ကတော့ Japan မှာ နေထိုင်ပြီး Data Analysis ကို လေ့လာနေသူ တစ်ဦးဖြစ်ပါတယ်။ 
-Python, Data Visualization နဲ့ Business Insights တွေကို စိတ်ဝင်စားပါတယ်။
+Hello! I am Min Min Htike.** I am currently based in Saitama, Japan, and I am on a focused journey to become a professional Data Analyst.  
+My goal is simple: To turn raw data into meaningful actions. Currently, I am actively building my technical skills in Python, Data Visualization, and Problem Solving.
+This portfolio documents my progress as I turn my career ambitions into reality—one project at a time.
 """)
 
 st.markdown("---") 
