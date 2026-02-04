@@ -8,12 +8,18 @@ st.set_page_config(
     layout="wide"
 )
 
-st.sidebar.image("https://cdn-icons-png.flaticon.com/512/3135/3135715.png", width=100)
-st.sidebar.header("Contact Info")
-st.sidebar.info("📍Irumashi, Saitama ken, Japan")
-st.sidebar.text("📧 mht.minhtike@gmail.com") 
-st.sidebar.text("📱 070-8940-4565")
-
+with st.sidebar:
+    st.image("https://cdn-icons-png.flaticon.com/512/3135/3135715.png", width=150)
+    st.title("📬 Contact Info")
+    st.write("📍 **Address**")
+    st.caption("Irumashi, Saitama ken, Japan")
+    st.markdown("---")
+    st.write("📧 **Email**")
+    st.markdown("[mht.minhtike@gmail.com](mailto:mht.minhtike@gmail.com)")
+    st.write("📱 **Phone**")
+    st.markdown("[070-8940-4565](tel:07089404565)")
+    st.markdown("---")
+    st.link_button("🔗 GitHub Profile", "https://github.com/minhtike-tech")
 st.title("Min Min Htike 👨‍💻")
 st.subheader("🚀 Aspiring Data Analyst | Portfolio")
 st.write("""
