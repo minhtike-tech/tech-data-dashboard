@@ -28,23 +28,44 @@ My goal is simple: To turn raw data into meaningful actions. Currently, I am act
 This portfolio documents my progress as I turn my career ambitions into reality—one project at a time.
 """)
 
-st.markdown("---") 
+st.write("---")
+col1, col2, col3 = st.columns(3)
+col1.metric("📍 Location", "Saitama, Japan")
+col2.metric("🎓 Degree", "B.C.Sc")
+col3.metric("💼 Status", "Open for Work")
+tab1, tab2, tab3 = st.tabs(["🎓 Education", "🛠️ Skills", "📂 Projects"])
 
-st.header("🎓 Education & Qualifications")
+with tab1:
+    st.subheader("Academic Background")
+    
+    with st.container(border=True):
+        st.write("📚 **B.Sc (Computer Science)**")
+        st.caption("University of Computer Studies, Yadanabon")
+        st.write("Focus: Programming, Database Management")
 
-col1, col2 = st.columns(2)
+    with st.container(border=True):
+        st.write("🇯🇵 **JLPT N2 (Japanese Language)**")
+        st.caption("Advanced Business Level Proficiency")
 
-with col1:
-    st.subheader("🏫 University Degrees")
-    st.write("👉 **B.Sc (Computer Science)** - [Yadanabon University]")
-    st.write("👉 **Foundation Diploma in Business and Information Technology** - [Myanmar Management Institute]")
+with tab2:
+    st.subheader("Technical Stack")
+    col_a, col_b = st.columns(2)
 
-with col2:
-    st.subheader("📜 Certifications")
-    st.write("👉 **JLPT N2** (Japanese Language Proficiency Test)")
-    st.write("👉 **Network Course:** Pratical A+ / Advanced A+ / Network Engineering")
-    st.write("👉 **Python for Data Analysis:** Self-Study Project (2025-Present)")
+    with col_a:
+        st.write("**🐍 Python Analysis**")
+        st.progress(85)
+        st.caption("Pandas, NumPy, Matplotlib")
+    
+    with col_b:
+        st.write("**📊 Data Visualization**")
+        st.progress(80)
+        st.caption("Streamlit, PowerBI, Tableau")
 
+with tab3:
+    st.info("🚧 More projects coming soon!")
+    st.write("✅ **Sales Dashboard:** Built with Streamlit")
+    st.write("✅ **Automation Scripts:** Python & Selenium")
+    
 st.markdown("---")
 
 st.header("🛠 Professional Skills")
