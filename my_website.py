@@ -66,37 +66,5 @@ with tab3:
     st.write("✅ **Automation Scripts:** Python & Selenium")
 
 st.markdown("---")
-
-st.header("🛠 Professional Skills")
-
-st.write("##### 💻 Programming & Tech")
-st.progress(80) 
-st.caption("Python (Pandas, NumPy, Matplotlib)")
-
-st.write("##### 📊 Data Visualization")
-st.progress(70)
-st.caption("Streamlit, Excel, Charts")
-
-st.write("##### 🌐 Networking")
-st.progress(75)
-st.caption("Network Infrastructure, Troubleshooting")
-
-st.write("##### 🗣 Languages")
-st.success("🇯🇵 Japanese (Business Level / N2)")
-st.info("🇲🇲 Burmese (Native)")
-st.warning("🇬🇧 English (Intermediate)")
-
-st.markdown("---")
-
-st.header("📈 Sample Data Visualization")
-st.write("ဒါကတော့ Python သုံးပြီး Random Data တွေကို ချက်ချင်း ပုံဖော်ထားတာ ဖြစ်ပါတယ်။")
-
-chart_data = pd.DataFrame(
-    np.random.randn(20, 3),
-    columns=['Sales', 'Income', 'Expenses']
-)
-
-st.area_chart(chart_data)
-
 st.markdown("---")
 st.markdown("© 2026 Min Min Htike. All Rights Reserved.")
