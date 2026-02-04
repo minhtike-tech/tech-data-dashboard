@@ -9,7 +9,7 @@ st.set_page_config(
 )
 
 with st.sidebar:
-    st.image("https://cdn-icons-png.flaticon.com/512/3135/3135715.png", width=150)
+    st.image("my_photo.jpg", width=150)
     st.title("📬 Contact Info")
     st.write("📍 **Address**")
     st.caption("Irumashi, Saitama ken, Japan")
