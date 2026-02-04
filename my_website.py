@@ -32,14 +32,14 @@ col1, col2, col3 = st.columns(3)
 col1.metric("📍 Location", "Saitama, Japan")
 col2.metric("🎓 Degree", "B.Sc")
 col3.metric("💼 Status", "Open for Work")
-tab1, tab2, tab3 = st.tabs(["🎓 Educations", "🛠️ Skills", "📂 Projects"])
+tab1, tab2, tab3 = st.tabs(["🎓 Education", "🛠️ Skills", "📂 Projects"])
 
 with tab1:
     st.subheader("Academic Background")
     
     with st.container(border=True):
         st.write("📚 **B.Sc (Computer Science)**")
-        st.caption("University of Computer Studies, Yadanabon")
+        st.caption("Yadanabon University, Mandalay")
         st.write("Focus: Programming, Database Management")
 
     with st.container(border=True):
@@ -65,6 +65,5 @@ with tab3:
     st.write("✅ **Sales Dashboard:** Built with Streamlit")
     st.write("✅ **Automation Scripts:** Python & Selenium")
 
-st.markdown("---")
 st.markdown("---")
 st.markdown("© 2026 Min Min Htike. All Rights Reserved.")
