@@ -23,17 +23,16 @@ with st.sidebar:
 st.title("Min Min Htike 👨‍💻")
 st.subheader("🚀 Aspiring Data Analyst | Portfolio")
 st.write("""
-Hello! I am Min Min Htike. I am currently based in Saitama, Japan, and I am on a focused journey to become a professional Data Analyst.  
-My goal is simple: To turn raw data into meaningful actions. Currently, I am actively building my technical skills in Python, Data Visualization, and Problem Solving.
+Hello! I am Min Min Htike. I am currently based in Saitama, Japan, and I am on a focused journey to become a professional Data Analyst. My goal is simple: To turn raw data into meaningful actions. Currently, I am actively building my technical skills in Python, Data Visualization, and Problem Solving.
 This portfolio documents my progress as I turn my career ambitions into reality—one project at a time.
 """)
 
 st.write("---")
 col1, col2, col3 = st.columns(3)
 col1.metric("📍 Location", "Saitama, Japan")
-col2.metric("🎓 Degree", "B.C.Sc")
+col2.metric("🎓 Degree", "B.Sc")
 col3.metric("💼 Status", "Open for Work")
-tab1, tab2, tab3 = st.tabs(["🎓 Education", "🛠️ Skills", "📂 Projects"])
+tab1, tab2, tab3 = st.tabs(["🎓 Educations", "🛠️ Skills", "📂 Projects"])
 
 with tab1:
     st.subheader("Academic Background")
@@ -44,7 +43,7 @@ with tab1:
         st.write("Focus: Programming, Database Management")
 
     with st.container(border=True):
-        st.write("🇯🇵 **JLPT N2 (Japanese Language)**")
+        st.write("🇯🇵 NAT-TEST N3 Certified (N2 Level Proficiency)")
         st.caption("Advanced Business Level Proficiency")
 
 with tab2:
@@ -65,7 +64,7 @@ with tab3:
     st.info("🚧 More projects coming soon!")
     st.write("✅ **Sales Dashboard:** Built with Streamlit")
     st.write("✅ **Automation Scripts:** Python & Selenium")
-    
+
 st.markdown("---")
 
 st.header("🛠 Professional Skills")
