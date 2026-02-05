@@ -45,9 +45,9 @@ with tab1:
         st.caption("Yadanabon University, Mandalay")
         st.write("---")
 
-        st.write("IT Diploma")
-        st.caption("Yangon University")
-        st.write("Programming")
+        st.write("Foundation Diploma in Business and Information Technology")
+        st.caption("Myanmar Management Institute")
+        st.write("---")
 
     with col2:
         st.subheader("📜 Professional Certifications")
@@ -56,10 +56,10 @@ with tab1:
 
         st.write("---")
 
-        st.write("🌐 **Network Certifications**")
-        st.write("✅ **Cisco CCNA** (Certified Network Associate)") 
-        st.write("✅ **CompTIA Network+**") 
-        st.caption("Routing, Switching, Network Security")
+        st.write("🌐 **Pratical A+**")
+        st.write("✅ **Advanced A+**") 
+        st.write("✅ **Network Engineering**") 
+        st.caption("PC repair and system maintenance, troubleshooting and computer errors")
 
 with tab2:
     st.subheader("Technical Stack")
