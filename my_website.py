@@ -56,7 +56,7 @@ with tab1:
 
         st.write("---")
 
-        st.write("🌐 **Pratical A+**")
+        st.write("✅ **Pratical A+**")
         st.write("✅ **Advanced A+**") 
         st.write("✅ **Network Engineering**") 
         st.caption("PC repair and system maintenance, troubleshooting and computer errors")
