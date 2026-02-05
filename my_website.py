@@ -120,7 +120,6 @@ with tab3:
 
     with st.expander("🧹 Data Cleaning Project"):
         st.info("🚧 Currently working on this project...")
-        st.write("---")
     
 st.markdown("---")
 st.markdown("© 2026 Min Min Htike. All Rights Reserved.")
