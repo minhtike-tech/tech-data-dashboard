@@ -81,7 +81,6 @@ with tab2:
 with tab3:
     st.subheader("📂 My Projects")
     
-    # Project 1: Sales Dashboard
     with st.expander("📊 Sales Dashboard (Streamlit & Python)"):
         st.write("**Technologies:** Python, Pandas, Streamlit, Plotly")
         st.write("**Description:**")
@@ -92,7 +91,6 @@ with tab3:
         """)
         st.link_button("👉 View Code on GitHub", "https://github.com/minhtike-tech") # Link မရှိရင် ခဏဖြုတ်ထားလို့ရ
 
-    # Project 2: Automation
     with st.expander("🤖 Automation Tool (Python & Selenium)"):
         st.write("**Technologies:** Python, Selenium, ChromeDriver")
         st.write("**Description:**")
@@ -101,8 +99,13 @@ with tab3:
         - Reduced manual work time by 40%.
         """)
 
-    # Project 3: Data Cleaning
     with st.expander("🧹 Data Cleaning Project"):
         st.info("🚧 Currently working on this project...")
+
+        st.write("---")
+    st.subheader("🧠 Soft Skills")
+    st.write("✅ **Problem Solving** (Logical thinking & Troubleshooting)")
+    st.write("✅ **Teamwork** (Experience working in diverse teams)")
+    st.write("✅ **Adaptability** (Fast learner of new technologies)")
 st.markdown("---")
 st.markdown("© 2026 Min Min Htike. All Rights Reserved.")
