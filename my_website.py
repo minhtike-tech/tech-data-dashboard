@@ -89,7 +89,7 @@ with tab3:
         - Analyzed monthly trends and top-selling products.
         - Helped business owners make data-driven decisions.
         """)
-        st.link_button("👉 View Code on GitHub", "https://github.com/minhtike-tech") # Link မရှိရင် ခဏဖြုတ်ထားလို့ရ
+        #st.link_button("👉 View Code on GitHub", "https://github.com/minhtike-tech") # Link မရှိရင် ခဏဖြုတ်ထားလို့ရ
 
     with st.expander("🤖 Automation Tool (Python & Selenium)"):
         st.write("**Technologies:** Python, Selenium, ChromeDriver")
