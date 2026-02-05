@@ -77,6 +77,25 @@ with tab2:
         st.write("**📊 Data Visualization**")
         st.progress(80)
         st.caption("Streamlit, PowerBI, Tableau")
+    st.subheader("🧠 Soft Skills")
+    st.write("✅ **Problem Solving** (Logical thinking & Troubleshooting)")
+    st.write("✅ **Teamwork** (Experience working in diverse teams)")
+    st.write("✅ **Adaptability** (Fast learner of new technologies)")
+
+    st.write("---")
+
+    st.subheader("🗣️ Language Proficiency")
+
+    lang1, lang2, lang3 = st.columns(3)
+
+    with lang1:
+        st.info("🇲🇲 **Burmese** (Native)")
+
+    with lang2:
+        st.success("🇯🇵 **Japanese** (Business Level)")
+
+    with lang3:
+        st.warning("🇬🇧 **English** (Intermediate)")
 
 with tab3:
     st.subheader("📂 My Projects")
@@ -101,11 +120,7 @@ with tab3:
 
     with st.expander("🧹 Data Cleaning Project"):
         st.info("🚧 Currently working on this project...")
-
         st.write("---")
-    st.subheader("🧠 Soft Skills")
-    st.write("✅ **Problem Solving** (Logical thinking & Troubleshooting)")
-    st.write("✅ **Teamwork** (Experience working in diverse teams)")
-    st.write("✅ **Adaptability** (Fast learner of new technologies)")
+    
 st.markdown("---")
 st.markdown("© 2026 Min Min Htike. All Rights Reserved.")
