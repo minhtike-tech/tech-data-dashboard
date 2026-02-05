@@ -46,7 +46,7 @@ with tab1:
         st.write("---")
 
         st.write("Foundation Diploma in Business and Information Technology")
-        st.caption("Myanmar Management Institute")
+        st.caption("Myanmar Management Institute, Yangon")
         st.write("---")
 
     with col2:
