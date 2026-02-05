@@ -79,9 +79,30 @@ with tab2:
         st.caption("Streamlit, PowerBI, Tableau")
 
 with tab3:
-    st.info("🚧 More projects coming soon!")
-    st.write("✅ **Sales Dashboard:** Built with Streamlit")
-    st.write("✅ **Automation Scripts:** Python & Selenium")
+    st.subheader("📂 My Projects")
+    
+    # Project 1: Sales Dashboard
+    with st.expander("📊 Sales Dashboard (Streamlit & Python)"):
+        st.write("**Technologies:** Python, Pandas, Streamlit, Plotly")
+        st.write("**Description:**")
+        st.write("""
+        - Created an interactive dashboard to visualize sales data.
+        - Analyzed monthly trends and top-selling products.
+        - Helped business owners make data-driven decisions.
+        """)
+        st.link_button("👉 View Code on GitHub", "https://github.com/minhtike-tech") # Link မရှိရင် ခဏဖြုတ်ထားလို့ရ
 
+    # Project 2: Automation
+    with st.expander("🤖 Automation Tool (Python & Selenium)"):
+        st.write("**Technologies:** Python, Selenium, ChromeDriver")
+        st.write("**Description:**")
+        st.write("""
+        - Automated repetitive tasks such as filling forms and downloading reports.
+        - Reduced manual work time by 40%.
+        """)
+
+    # Project 3: Data Cleaning
+    with st.expander("🧹 Data Cleaning Project"):
+        st.info("🚧 Currently working on this project...")
 st.markdown("---")
 st.markdown("© 2026 Min Min Htike. All Rights Reserved.")
