@@ -72,11 +72,19 @@ with tab2:
         st.write("**🐍 Python Analysis**")
         st.progress(85)
         st.caption("Pandas, NumPy, Matplotlib")
+
+        st.write("**🗄️ SQL (Database)**")
+        st.progress(75)
+        st.caption("MySQL, PostgreSQL, Query Optimization")
     
     with col_b:
         st.write("**📊 Data Visualization**")
         st.progress(80)
         st.caption("Streamlit, PowerBI, Tableau")
+
+        st.write("**📗 Excel & Spreadsheets**")
+        st.progress(90) 
+        st.caption("Pivot Tables, VLOOKUP, Macros")
     st.subheader("🧠 Soft Skills")
     st.write("✅ **Problem Solving** (Logical thinking & Troubleshooting)")
     st.write("✅ **Teamwork** (Experience working in diverse teams)")
