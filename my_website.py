@@ -43,24 +43,21 @@ with tab1:
         st.subheader("🏛️ University Degrees")
         st.write("📚 **B.Sc (Computer Science)**")
         st.caption("Yadanabon University, Mandalay")
-        st.write("---")
 
-        st.write("Foundation Diploma in Business and Information Technology")
+        st.write("🎓 **Foundation Diploma in Business & IT**")
         st.caption("Myanmar Management Institute, Yangon")
-        st.write("---")
 
     with col2:
         st.subheader("📜 Professional Certifications")
         st.write("🇯🇵 NAT-TEST N3 Certified (N2 Level Proficiency)")
-        st.caption("Advanced Business Level Proficiency")
 
-        st.write("---")
+        st.markdown("---")
 
-        st.write("✅ **Pratical A+**")
-        st.write("✅ **Advanced A+**") 
+        st.write("**💻 IT & Networking**")
         st.write("✅ **Network Engineering**") 
-        st.caption("PC repair and system maintenance, troubleshooting and computer errors")
-
+        st.write("✅ **Advanced A+** (Hardware & System)")
+        st.write("✅ **Practical A+** (Hands-on Training)")
+        
 with tab2:
     st.subheader("Technical Stack")
     col_a, col_b = st.columns(2)
