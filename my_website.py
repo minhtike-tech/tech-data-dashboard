@@ -19,8 +19,14 @@ with st.sidebar:
     st.write("📱 **Phone**")
     st.markdown("[070-8940-4565](tel:07089404565)")
     st.markdown("---")
-    st.link_button("🔗 GitHub Profile", "https://github.com/minhtike-tech")
-st.title("Min Min Htike 👨‍💻")
+col_link1, col_link2 = st.sidebar.columns(2)
+
+with col_link1:
+    st.link_button("🔗 GitHub", "https://github.com/minhtike-tech")
+    
+with col_link2:
+    st.link_button("👔 LinkedIn", "https://www.linkedin.com/in/minminhtike-data")
+    st.title("Min Min Htike 👨‍💻")
 st.subheader("🚀 Aspiring Data Analyst | Portfolio")
 st.write("""
 Hello! I am Min Min Htike. I am currently based in Saitama, Japan, and I am on a focused journey to become a professional Data Analyst. My goal is simple: To turn raw data into meaningful actions. Currently, I am actively building my technical skills in Python, Data Visualization, and Problem Solving.
@@ -57,7 +63,7 @@ with tab1:
         st.write("✅ **Network Engineering**") 
         st.write("✅ **Advanced A+** (Hardware & System)")
         st.write("✅ **Practical A+** (Hands-on Training)")
-        
+
 with tab2:
     st.subheader("Technical Stack")
     col_a, col_b = st.columns(2)
