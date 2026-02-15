@@ -5,7 +5,7 @@ import numpy as np
 st.set_page_config(
     page_title="Min Min Htike's Portfolio", 
     page_icon="📊",
-    layout="wide"
+    layout="wide"      
 )
 
 with st.sidebar:
@@ -25,7 +25,7 @@ with col_link1:
     st.link_button("🔗 GitHub", "https://github.com/minhtike-tech")
     
 with col_link2:
-    st.link_button("👔 LinkedIn", "https://www.linkedin.com/in/minminhtike-data")
+    st.link_button("👔 LinkedIn", "https://www.linkedin.com/in/minminhtike-tech")
 st.title("Min Min Htike 👨‍💻")
 st.subheader("🚀 Aspiring Data Analyst | Portfolio")
 st.write("""
@@ -116,7 +116,7 @@ with tab3:
         - Analyzed monthly trends and top-selling products.
         - Helped business owners make data-driven decisions.
         """)
-        #st.link_button("👉 View Code on GitHub", "https://github.com/minhtike-tech") # Link မရှိရင် ခဏဖြုတ်ထားလို့ရ
+        #st.link_button("👉 View Code on GitHub", "https://github.com/minhtike-tech") 
 
     with st.expander("🤖 Automation Tool (Python & Selenium)"):
         st.write("**Technologies:** Python, Selenium, ChromeDriver")
