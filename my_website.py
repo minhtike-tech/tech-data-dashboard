@@ -27,7 +27,7 @@ with col_link1:
 with col_link2:
     st.link_button("👔 LinkedIn", "https://www.linkedin.com/in/minminhtike-tech")
 st.title("Min Min Htike 👨‍💻")
-st.subheader("🚀 Aspiring Data Analyst | Portfolio")
+st.subheader("🚀 Entry-Level Data Analyst | Portfolio")
 st.write("""
 Hello! I am Min Min Htike. I am currently based in Saitama, Japan, and I am on a focused journey to become a professional Data Analyst. My goal is simple: To turn raw data into meaningful actions. Currently, I am actively building my technical skills in Python, Data Visualization, and Problem Solving.
 This portfolio documents my progress as I turn my career ambitions into reality—one project at a time.
