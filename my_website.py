@@ -109,14 +109,16 @@ with tab3:
     st.subheader("📂 My Projects")
     
     with st.expander("📊 Sales Dashboard (Streamlit & Python)"):
-        st.write("**Technologies:** Python, Pandas, Streamlit, Plotly")
+        st.write("**Technologies:** Python, Pandas, Seaborn, Matplotlib")
         st.write("**Description:**")
         st.write("""
-        - Created an interactive dashboard to visualize sales data.
-        - Analyzed monthly trends and top-selling products.
-        - Helped business owners make data-driven decisions.
+        My first Data Analysis project using Python to explore and understand survival patterns from the Titanic dataset.
+        - Data Cleaning: Handled missing age data using Median Imputation to ensure analysis accuracy.
+        - Survival Analysis: Discovered key insights on how age and gender influenced survival chances, noting that young adult males were the most impacted group.
+        - Family Dynamics: Analyzed the relationship between family size and survival probability.
+        - Visualizations: Created clear distribution plots and bar charts to communicate findings effectively.
         """)
-        #st.link_button("👉 View Code on GitHub", "https://github.com/minhtike-tech") 
+        st.link_button("👉 View Code on GitHub", "https://github.com/minhtike-tech/titanic-data-analysis") 
 
     with st.expander("🤖 Automation Tool (Python & Selenium)"):
         st.write("**Technologies:** Python, Selenium, ChromeDriver")
