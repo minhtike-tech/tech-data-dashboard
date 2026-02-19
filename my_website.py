@@ -108,7 +108,7 @@ with tab2:
 with tab3:
     st.subheader("📂 My Projects")
     
-    with st.expander("📊 Sales Dashboard (Streamlit & Python)"):
+    with st.expander("🚢 Titanic Survival Analysis (Python)"):
         st.write("**Technologies:** Python, Pandas, Seaborn, Matplotlib")
         st.write("**Description:**")
         st.write("""
