@@ -120,7 +120,7 @@ with tab3:
         """)
         st.link_button("👉 View Code on GitHub", "https://github.com/minhtike-tech/titanic-data-analysis") 
 
-    with st.expander("🤖 Automation Tool (Python & Selenium)"):
+    with st.expander("🎬 Netflix Content Trends Analysis (Python)"):
         st.write("**Technologies:** Python, Pandas, Matplotlib, Seaborn")
         st.write("**Description:**")
         st.write("""
