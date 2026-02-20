@@ -130,7 +130,7 @@ with tab3:
         - **Movie Durations:** Analyzed that the average Netflix movie duration is approximately 99 minutes.
         - **Growth Trends:** Documented a massive surge in content production starting from 2014, peaking in 2018-2019.
         """)
-        st.link_button("👉 View Code on GitHub","https://github.com/minhtike-tech/Netflix-Data-Analysis")
+        st.link_button("👉 View Code on GitHub", "https://github.com/minhtike-tech/Netflix-Data-Analysis")
 
     with st.expander("🧹 Data Cleaning Project"):
         st.info("🚧 Currently working on this project...")
