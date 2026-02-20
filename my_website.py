@@ -121,12 +121,16 @@ with tab3:
         st.link_button("👉 View Code on GitHub", "https://github.com/minhtike-tech/titanic-data-analysis") 
 
     with st.expander("🤖 Automation Tool (Python & Selenium)"):
-        st.write("**Technologies:** Python, Selenium, ChromeDriver")
+        st.write("**Technologies:** Python, Pandas, Matplotlib, Seaborn")
         st.write("**Description:**")
         st.write("""
-        - Automated repetitive tasks such as filling forms and downloading reports.
-        - Reduced manual work time by 40%.
+        An Exploratory Data Analysis (EDA) project on the Netflix dataset to uncover content strategies and streaming trends.
+        - **Content Ratio:** Discovered that Movies significantly outnumber TV Shows on the platform.
+        - **Global Insights:** Identified the United States as the leading producer, followed by India and the UK.
+        - **Movie Durations:** Analyzed that the average Netflix movie duration is approximately 99 minutes.
+        - **Growth Trends:** Documented a massive surge in content production starting from 2014, peaking in 2018-2019.
         """)
+        st.link_button("https://github.com/minhtike-tech/Netflix-Data-Analysis")
 
     with st.expander("🧹 Data Cleaning Project"):
         st.info("🚧 Currently working on this project...")
