@@ -36,7 +36,7 @@ This portfolio documents my progress as I turn my career ambitions into reality�
 st.write("---")
 col1, col2, col3 = st.columns(3)
 col1.metric("📍 Location", "Saitama, Japan")
-col2.metric("🎓 Degree", "B.Sc(Computer Science)")
+col2.metric("🎓 Degree", "B.Sc(CS)")
 col3.metric("💼 Status", "Open for Work")
 tab1, tab2, tab3 = st.tabs(["🎓 Education", "🛠️ Skills", "📂 Projects"])
 
