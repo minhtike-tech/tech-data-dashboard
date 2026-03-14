@@ -132,8 +132,16 @@ with tab3:
         """)
         st.link_button("👉 View Code on GitHub", "https://github.com/minhtike-tech/Netflix-Data-Analysis")
 
-    with st.expander("🧹 Data Cleaning Project"):
-        st.info("🚧 Currently working on this project...")
+    with st.expander("🗼 Tokyo Airbnb Data Analysis (Python, SQL, Power BI)"):
+    st.write("**Technologies:** Python, Pandas, SQLite, Power BI")
+    st.write("**Description:**")
+    st.write("""
+    An end-to-end data pipeline project uncovering popular neighborhoods, budget-friendly hotspots, and VIP guests in Tokyo.
+    - **The Ultimate Hotspot:** Identified Shinjuku Ku as the undisputed most popular neighborhood by guest reviews.
+    - **Hidden Gems:** Discovered Taito Ku and Sumida Ku as highly sought-after, budget-friendly areas for tourists.
+    - **Customer Retention:** Extracted the "Top 10 Most Loyal Customers" using SQL aggregations for potential VIP targeting.
+    """)
+    st.link_button("👉 View Code on GitHub", "https://github.com/minhtike-tech/Tokyo-Airbnb-Data-Analysis")
     
 st.markdown("---")
 st.markdown("© 2026 Min Min Htike. All Rights Reserved.")
