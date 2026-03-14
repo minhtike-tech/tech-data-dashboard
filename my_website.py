@@ -36,7 +36,7 @@ This portfolio documents my progress as I turn my career ambitions into reality�
 st.write("---")
 col1, col2, col3 = st.columns(3)
 col1.metric("📍 Location", "Saitama, Japan")
-col2.metric("🎓 Degree", "B.Sc")
+col2.metric("🎓 Degree", "B.Sc(Computer Science)")
 col3.metric("💼 Status", "Open for Work")
 tab1, tab2, tab3 = st.tabs(["🎓 Education", "🛠️ Skills", "📂 Projects"])
 
@@ -48,10 +48,10 @@ with tab1:
     with col1:
         st.subheader("🏛️ University Degrees")
         st.write("📚 **B.Sc (Computer Science)**")
-        st.caption("Yadanabon University, Mandalay")
+        st.caption("Yadanabon University, Mandalay, Myanmar")
 
         st.write("🎓 **Foundation Diploma in Business & IT**")
-        st.caption("Myanmar Management Institute, Yangon")
+        st.caption("Myanmar Management Institute, Yangon, Myanmar")
 
     with col2:
         st.subheader("📜 Professional Certifications")
