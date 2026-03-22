@@ -141,7 +141,19 @@ with tab3:
         - **Hidden Gems:** Discovered Taito Ku and Sumida Ku as highly sought-after, budget-friendly areas for tourists.
         - **Customer Retention:** Extracted the "Top 10 Most Loyal Customers" using SQL aggregations for potential VIP targeting.
         """)
-        st.link_button("👉 View Code on GitHub", "https://github.com/minhtike-tech/Tokyo-Airbnb-Data-Analysis")
-    
+        st.link_button("👉 View Code on GitHub", "https://github.com/minhtike-tech/Tokyo-Airbnb-Data-Analysis")    
+
+    with st.expander("🛒 Olist E-Commerce End-to-End Data Analysis (Python, SQL, Power BI)"):
+        st.write("**Technologies:** Python, Pandas, SQL, Power BI")
+        st.write("**Description:**")
+        st.write("""
+        An end-to-end data pipeline project transforming massive raw Brazilian e-commerce datasets into interactive business insights.
+        - **Massive Sales Volume:** Uncovered a staggering total revenue of $14.21M across 103.11K total orders.
+        - **Payment Preferences:** Identified Credit Cards as the dominant payment method, capturing 77.23% ($10.97M) of the market.
+        - **The Ultimate Hotspot:** Pinpointed Sao Paulo and Southeast Brazil as the undeniable powerhouse for both highest revenue and customer concentration.
+        """)
+        st.link_button("👉 View Code on GitHub", "https://github.com/minhtike-tech/Olist-E-commerce-Data_Analysis")
+
+
 st.markdown("---")
 st.markdown("© 2026 Min Min Htike. All Rights Reserved.")
