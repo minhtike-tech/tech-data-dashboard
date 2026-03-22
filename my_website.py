@@ -108,18 +108,28 @@ with tab2:
 with tab3:
     st.subheader("📂 My Projects")
     
-    with st.expander("🚢 Titanic Survival Analysis (Python)"):
-        st.write("**Technologies:** Python, Pandas, Seaborn, Matplotlib")
+    with st.expander("🛒 Olist E-Commerce End-to-End Data Analysis (Python, SQL, Power BI)"):
+        st.write("**Technologies:** Python, Pandas, SQL, Power BI")
         st.write("**Description:**")
         st.write("""
-        My first Data Analysis project using Python to explore and understand survival patterns from the Titanic dataset.
-        - Data Cleaning: Handled missing age data using Median Imputation to ensure analysis accuracy.
-        - Survival Analysis: Discovered key insights on how age and gender influenced survival chances, noting that young adult males were the most impacted group.
-        - Family Dynamics: Analyzed the relationship between family size and survival probability.
-        - Visualizations: Created clear distribution plots and bar charts to communicate findings effectively.
+        An end-to-end data pipeline project transforming massive raw Brazilian e-commerce datasets into interactive business insights.
+        - **Massive Sales Volume:** Uncovered a staggering total revenue of $14.21M across 103.11K total orders.
+        - **Payment Preferences:** Identified Credit Cards as the dominant payment method, capturing 77.23% ($10.97M) of the market.
+        - **The Ultimate Hotspot:** Pinpointed Sao Paulo and Southeast Brazil as the undeniable powerhouse for both highest revenue and customer concentration.
         """)
-        st.link_button("👉 View Code on GitHub", "https://github.com/minhtike-tech/titanic-data-analysis") 
+        st.link_button("👉 View Code on GitHub", "https://github.com/minhtike-tech/Olist-E-commerce-Data_Analysis")
 
+    with st.expander("🗼 Tokyo Airbnb Data Analysis (Python, SQL, Power BI)"):
+        st.write("**Technologies:** Python, Pandas, SQLite, Power BI")
+        st.write("**Description:**")
+        st.write("""
+        An end-to-end data pipeline project uncovering popular neighborhoods, budget-friendly hotspots, and VIP guests in Tokyo.
+        - **The Ultimate Hotspot:** Identified Shinjuku Ku as the undisputed most popular neighborhood by guest reviews.
+        - **Hidden Gems:** Discovered Taito Ku and Sumida Ku as highly sought-after, budget-friendly areas for tourists.
+        - **Customer Retention:** Extracted the "Top 10 Most Loyal Customers" using SQL aggregations for potential VIP targeting.
+        """)
+        st.link_button("👉 View Code on GitHub", "https://github.com/minhtike-tech/Tokyo-Airbnb-Data-Analysis")    
+    
     with st.expander("🎬 Netflix Content Trends Analysis (Python)"):
         st.write("**Technologies:** Python, Pandas, Matplotlib, Seaborn")
         st.write("**Description:**")
@@ -132,27 +142,18 @@ with tab3:
         """)
         st.link_button("👉 View Code on GitHub", "https://github.com/minhtike-tech/Netflix-Data-Analysis")
 
-    with st.expander("🗼 Tokyo Airbnb Data Analysis (Python, SQL, Power BI)"):
-        st.write("**Technologies:** Python, Pandas, SQLite, Power BI")
+    with st.expander("🚢 Titanic Survival Analysis (Python)"):
+        st.write("**Technologies:** Python, Pandas, Seaborn, Matplotlib")
         st.write("**Description:**")
         st.write("""
-        An end-to-end data pipeline project uncovering popular neighborhoods, budget-friendly hotspots, and VIP guests in Tokyo.
-        - **The Ultimate Hotspot:** Identified Shinjuku Ku as the undisputed most popular neighborhood by guest reviews.
-        - **Hidden Gems:** Discovered Taito Ku and Sumida Ku as highly sought-after, budget-friendly areas for tourists.
-        - **Customer Retention:** Extracted the "Top 10 Most Loyal Customers" using SQL aggregations for potential VIP targeting.
+        My first Data Analysis project using Python to explore and understand survival patterns from the Titanic dataset.
+        - Data Cleaning: Handled missing age data using Median Imputation to ensure analysis accuracy.
+        - Survival Analysis: Discovered key insights on how age and gender influenced survival chances, noting that young adult males were the most impacted group.
+        - Family Dynamics: Analyzed the relationship between family size and survival probability.
+        - Visualizations: Created clear distribution plots and bar charts to communicate findings effectively.
         """)
-        st.link_button("👉 View Code on GitHub", "https://github.com/minhtike-tech/Tokyo-Airbnb-Data-Analysis")    
+        st.link_button("👉 View Code on GitHub", "https://github.com/minhtike-tech/titanic-data-analysis") 
 
-    with st.expander("🛒 Olist E-Commerce End-to-End Data Analysis (Python, SQL, Power BI)"):
-        st.write("**Technologies:** Python, Pandas, SQL, Power BI")
-        st.write("**Description:**")
-        st.write("""
-        An end-to-end data pipeline project transforming massive raw Brazilian e-commerce datasets into interactive business insights.
-        - **Massive Sales Volume:** Uncovered a staggering total revenue of $14.21M across 103.11K total orders.
-        - **Payment Preferences:** Identified Credit Cards as the dominant payment method, capturing 77.23% ($10.97M) of the market.
-        - **The Ultimate Hotspot:** Pinpointed Sao Paulo and Southeast Brazil as the undeniable powerhouse for both highest revenue and customer concentration.
-        """)
-        st.link_button("👉 View Code on GitHub", "https://github.com/minhtike-tech/Olist-E-commerce-Data_Analysis")
 
 
 st.markdown("---")
