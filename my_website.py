@@ -100,7 +100,7 @@ with tab2:
         st.info("🇲🇲 **Burmese** (Native)")
 
     with lang2:
-        st.success("🇯🇵 **Japanese** (Business Level)")
+        st.success("🇯🇵 **Japanese** (Intermediate Level)")
 
     with lang3:
         st.warning("🇬🇧 **English** (Intermediate)")
