@@ -12,7 +12,7 @@ with st.sidebar:
     st.image("my_photo.jpg", width=150)
     st.title("📬 Contact Info")
     st.write("📍 **Address**")
-    st.caption("Irumashi, Saitama ken, Japan")
+    st.caption("東京都板橋区高島平5-17-5 TOKYO β 西高島平4 108 号室")
     st.markdown("---")
     st.write("📧 **Email**")
     st.markdown("[mht.minhtike@gmail.com](mailto:mht.minhtike@gmail.com)")
